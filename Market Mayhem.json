@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -32857,7 +32857,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210183,
+        "zoomFactor": 0.32169117647058915,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -33194,10 +33194,9 @@
           "keepRatio": true,
           "layer": "",
           "name": "timer",
-          "opacity": 0,
           "persistentUuid": "791ff1e5-ac22-498a-9671-82d20697bcf7",
           "width": 0,
-          "x": -133,
+          "x": -144,
           "y": 6,
           "zOrder": 15,
           "numberProperties": [],
@@ -33414,9 +33413,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -33491,9 +33490,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -33568,9 +33567,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -33645,9 +33644,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -33722,9 +33721,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -33799,9 +33798,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -34847,6 +34846,17 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "timer",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -34855,7 +34865,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Draggable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35373,20 +35382,6 @@
                 },
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                  },
-                  "parameters": [
-                    "timer",
-                    "Tween",
-                    "\"timer\"",
-                    "730",
-                    "\"linear\"",
-                    "3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -35474,6 +35469,16 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "timer",
+                    "=",
+                    "100"
+                  ]
                 }
               ]
             },
@@ -35508,6 +35513,20 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "timer",
+                    "Tween",
+                    "\"timer\"",
+                    "720",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -35862,7 +35881,18 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "ToString(timer.Opacity::Value())",
+                    "",
+                    ""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",

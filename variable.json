@@ -1,0 +1,313 @@
+{ 
+"pilih_level": {
+    "1": {
+    "pembeli" : {
+        "id": 1,
+        "max_pembeli": 5,
+        "quest" : {
+            "1": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 es pelangi"    
+            },
+            "2": {
+                "0": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 beras"    
+            },
+            "3": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 tempe"    
+            },
+            "4": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 jeruk"    
+            },
+            "5": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 mobil mainan"    
+            },
+            "satu_layar": 1
+        }
+    }
+    },
+     "2": {
+    "pembeli" : {
+        "id": 1,
+        "max_pembeli": 8,
+        "quest" : {
+            "1": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 es pelangi"    
+            },
+            "2": {
+                "0": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 beras"    
+            },
+            "3": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 tempe"    
+            },
+            "4": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 jeruk"    
+            },
+            "5": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 mobil mainan"    
+            },
+            "6": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 ayam mainan"    
+            },
+            "7": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 mobil mainan dan 1 ayam mainan"    
+            },
+            "8": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 beras dan 1 jeruk"    
+            },
+            "satu_layar": 2
+        }
+    }
+    },
+     "3": {
+    "pembeli" : {
+        "id": 1,
+        "max_pembeli": 10,
+        "quest" : {
+            "1": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 es pelangi"    
+            },
+            "2": {
+                "0": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 3,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 beras"    
+            },
+            "3": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 tempe"    
+            },
+            "4": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 jeruk"    
+            },
+            "5": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 mobil mainan"    
+            },
+            "6": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 2 ayam mainan"    
+            },
+            "7": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 mobil mainan dan 1 ayam mainan"    
+            },
+            "8": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 beras dan 1 jeruk"    
+            },
+            "9": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 es pelangi dan 1 tempe"    
+            },
+            "10": {
+                "0": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "1": {
+                    "id-barang": 1,
+                    "sudah": false
+                },
+                "teks": "Hallo saya ingin membeli 1 jeruk dan 1 beras"    
+            },
+            "satu_layar": 3
+        }
+    }
+    }
+},
+"z_order": 0,
+"orang2": 1,
+"counter": 0,
+"data_barang": {
+    "1": {
+        "name": "beras",
+        "scale": 0.45
+    },
+    "2": {
+        "name": "es_lilin_pelangi",
+        "scale": 0.25
+    },
+    "3": {
+        "name": "jeruk",
+        "scale": 0.4
+    },
+    "4": {
+        "name": "tempe",
+        "scale": 0.15
+    },
+    "5": {
+        "name": "mobil_mainan",
+        "scale": 0.05
+    },
+    "6": {
+        "name": "ayam_mainan",
+        "scale": 0.05
+    }
+}
+}

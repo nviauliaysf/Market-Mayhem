@@ -1383,6 +1383,14 @@
         "name": "Tak berjudul504_Dipulihkan9_20251017095753 1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Total Skor _ (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Total Skor _ (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9001,7 +9009,7 @@
               "parameters": [
                 "pilih_level_global",
                 "=",
-                "3"
+                "1"
               ]
             },
             {
@@ -12526,9 +12534,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3437520241612331,
+        "zoomFactor": 0.39251611754882454,
         "windowMask": false,
-        "selectedLayer": "pengaturan"
+        "selectedLayer": "winner"
       },
       "objectsGroups": [
         {
@@ -12618,7 +12626,6 @@
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "pembeli",
               "type": "structure",
               "children": [
@@ -12637,7 +12644,6 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
                       "name": "1",
                       "type": "structure",
                       "children": [
@@ -12676,12 +12682,11 @@
                         {
                           "name": "text",
                           "type": "string",
-                          "value": "aku mau beli beras dan es lilin pelanginya satu ya"
+                          "value": "Hallo saya ingin membeli 2 es pelangi"
                         }
                       ]
                     },
                     {
-                      "folded": true,
                       "name": "2",
                       "type": "structure",
                       "children": [
@@ -12720,12 +12725,11 @@
                         {
                           "name": "text",
                           "type": "string",
-                          "value": "aku mau beli jeruk 2 ya"
+                          "value": "Hallo saya ingin membeli 2 beras"
                         }
                       ]
                     },
                     {
-                      "folded": true,
                       "name": "3",
                       "type": "structure",
                       "children": [
@@ -12764,7 +12768,97 @@
                         {
                           "name": "text",
                           "type": "string",
-                          "value": "tolong es lilin pelangi-nya 2 ya"
+                          "value": "Hallo saya ingin membeli 2 tempe"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "4",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "0",
+                          "type": "structure",
+                          "children": [
+                            {
+                              "name": "id_barang",
+                              "type": "number",
+                              "value": 1
+                            },
+                            {
+                              "name": "sudah",
+                              "type": "boolean",
+                              "value": false
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "name": "1",
+                          "type": "structure",
+                          "children": [
+                            {
+                              "name": "id_barang",
+                              "type": "number",
+                              "value": 1
+                            },
+                            {
+                              "name": "sudah",
+                              "type": "boolean",
+                              "value": false
+                            }
+                          ]
+                        },
+                        {
+                          "name": "text",
+                          "type": "string",
+                          "value": "Hallo saya ingin membeli 2 jeruk"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "5",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "0",
+                          "type": "structure",
+                          "children": [
+                            {
+                              "name": "id_barang",
+                              "type": "number",
+                              "value": 1
+                            },
+                            {
+                              "name": "sudah",
+                              "type": "boolean",
+                              "value": false
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "name": "1",
+                          "type": "structure",
+                          "children": [
+                            {
+                              "name": "id_barang",
+                              "type": "number",
+                              "value": 1
+                            },
+                            {
+                              "name": "sudah",
+                              "type": "boolean",
+                              "value": false
+                            }
+                          ]
+                        },
+                        {
+                          "name": "text",
+                          "type": "string",
+                          "value": "Hallo saya ingin membeli 2 mobil mainan"
                         }
                       ]
                     }
@@ -12785,6 +12879,7 @@
           "value": 0
         },
         {
+          "folded": true,
           "name": "data_barang",
           "type": "structure",
           "children": [
@@ -12840,6 +12935,7 @@
               ]
             },
             {
+              "folded": true,
               "name": "4",
               "type": "structure",
               "children": [
@@ -12856,6 +12952,7 @@
               ]
             },
             {
+              "folded": true,
               "name": "5",
               "type": "structure",
               "children": [
@@ -12872,6 +12969,7 @@
               ]
             },
             {
+              "folded": true,
               "name": "6",
               "type": "structure",
               "children": [
@@ -13305,6 +13403,70 @@
           "x": 523,
           "y": 514,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "winner",
+          "name": "kotak_winner",
+          "persistentUuid": "f5a3b526-bb02-41fc-a8a1-b6ccd19de1de",
+          "width": 0,
+          "x": 261,
+          "y": 71,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "winner",
+          "name": "skor_akhir_kemenangan",
+          "persistentUuid": "820f595a-d2bd-4f36-8a85-b8f6667ad08a",
+          "width": 0,
+          "x": 548,
+          "y": 335,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "winner",
+          "name": "teks",
+          "persistentUuid": "c31be4a2-e437-4415-801d-f5aedb22197d",
+          "width": 0,
+          "x": 466,
+          "y": 203,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "winner",
+          "name": "ok_winner",
+          "persistentUuid": "191dec36-0215-4fca-b8a6-44a8d99ef449",
+          "width": 0,
+          "x": 523,
+          "y": 514,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14345,7 +14507,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175105 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175122 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14393,7 +14555,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175112 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175105 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14441,7 +14603,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175122 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175112 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14489,7 +14651,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan13_20251023064632 1.png",
+                      "image": "Tak berjudul504_Dipulihkan13_20251023064712 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14537,7 +14699,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan13_20251023064549 1.png",
+                      "image": "Tak berjudul504_Dipulihkan13_20251023064632 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14585,7 +14747,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan13_20251023064712 1.png",
+                      "image": "Tak berjudul504_Dipulihkan13_20251023064549 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14633,7 +14795,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013174412 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013174427 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14681,7 +14843,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013174419 1 (1).png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013174412 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14729,7 +14891,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013174427 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013174419 1 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14777,7 +14939,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan5_20251017100101 3.png",
+                      "image": "Tak berjudul504_Dipulihkan5_20251017100049 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14825,7 +14987,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan5_20251017100123 1.png",
+                      "image": "Tak berjudul504_Dipulihkan5_20251017100101 3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14873,7 +15035,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan5_20251017100049 1.png",
+                      "image": "Tak berjudul504_Dipulihkan5_20251017100123 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14921,7 +15083,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan3_20251013175604 1.png",
+                      "image": "Tak berjudul504_Dipulihkan3_20251013175625 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14969,7 +15131,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan3_20251013175618 1.png",
+                      "image": "Tak berjudul504_Dipulihkan3_20251013175604 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15017,7 +15179,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan3_20251013175625 1.png",
+                      "image": "Tak berjudul504_Dipulihkan3_20251013175618 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15065,7 +15227,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175130 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175301 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15113,7 +15275,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175253 1.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175130 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15161,7 +15323,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan2_20251013175301 2.png",
+                      "image": "Tak berjudul504_Dipulihkan2_20251013175253 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15209,7 +15371,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan11_20251017094400 1.png",
+                      "image": "Tak berjudul504_Dipulihkan11_20251017094301 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15257,7 +15419,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan11_20251017094504 1 (2).png",
+                      "image": "Tak berjudul504_Dipulihkan11_20251017094400 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15305,7 +15467,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan11_20251017094301 1.png",
+                      "image": "Tak berjudul504_Dipulihkan11_20251017094504 1 (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15353,7 +15515,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan10_20251017095937 1.png",
+                      "image": "Tak berjudul504_Dipulihkan10_20251017095917 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15401,7 +15563,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan10_20251017100017 1.png",
+                      "image": "Tak berjudul504_Dipulihkan10_20251017095937 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15449,7 +15611,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan10_20251017095917 1.png",
+                      "image": "Tak berjudul504_Dipulihkan10_20251017100017 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15497,7 +15659,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan6_20251017095543 1.png",
+                      "image": "Tak berjudul504_Dipulihkan6_20251017095456 1 (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15545,7 +15707,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan6_20251017095605 1.png",
+                      "image": "Tak berjudul504_Dipulihkan6_20251017095543 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15593,7 +15755,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan6_20251017095456 1 (2).png",
+                      "image": "Tak berjudul504_Dipulihkan6_20251017095605 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15641,7 +15803,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan9_20251017095811 1.png",
+                      "image": "Tak berjudul504_Dipulihkan9_20251017095753 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15689,7 +15851,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan9_20251017095850 1 (1).png",
+                      "image": "Tak berjudul504_Dipulihkan9_20251017095811 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15737,7 +15899,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tak berjudul504_Dipulihkan9_20251017095753 1.png",
+                      "image": "Tak berjudul504_Dipulihkan9_20251017095850 1 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17359,6 +17521,326 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "kotak_winner",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tak berjudul527_20251021041004 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 548
+                          },
+                          {
+                            "x": 1,
+                            "y": 548
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "skor_akhir_kemenangan",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "string": "100",
+          "font": "FredokaOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "208;80;28",
+            "outlineThickness": 18,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "100",
+            "font": "FredokaOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "teks",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Total Skor _ (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 361,
+                            "y": 0
+                          },
+                          {
+                            "x": 361,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ok_winner",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.08,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 1,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 10,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tak berjudul527_20251021041118 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 125
+                          },
+                          {
+                            "x": 6,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17433,6 +17915,9 @@
             "objectName": "teks_skor"
           },
           {
+            "objectName": "skor_akhir_kemenangan"
+          },
+          {
             "objectName": "create_orang"
           },
           {
@@ -17446,6 +17931,15 @@
           },
           {
             "objectName": "ok_setting"
+          },
+          {
+            "objectName": "ok_winner"
+          },
+          {
+            "objectName": "kotak_winner"
+          },
+          {
+            "objectName": "teks"
           }
         ]
       },
@@ -17591,6 +18085,26 @@
               },
               "parameters": [
                 "delete_orang"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_winner",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pilih_level_global",
+                "=",
+                "1"
               ]
             }
           ],
@@ -18814,6 +19328,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Skor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18828,6 +19343,17 @@
                   },
                   "parameters": [
                     "teks_skor",
+                    "Text",
+                    "=",
+                    "jumlah_skor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "skor_akhir_kemenangan",
                     "Text",
                     "=",
                     "jumlah_skor"
@@ -18981,7 +19507,7 @@
                     "orang",
                     "id",
                     "=",
-                    "pilih_level.pembeli.id"
+                    "pilih_level[pilih_level_global].pembeli.id"
                   ]
                 },
                 {
@@ -18992,7 +19518,7 @@
                     "kotak_kena",
                     "id",
                     "=",
-                    "pilih_level.pembeli.id"
+                    "pilih_level[pilih_level_global].pembeli.id"
                   ]
                 },
                 {
@@ -19091,7 +19617,7 @@
                   "parameters": [
                     "teks_permintaan",
                     "=",
-                    "290"
+                    "280"
                   ]
                 },
                 {
@@ -19208,7 +19734,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "RandomInRange(2,3)"
+                        "RandomInRange(1,2)"
                       ]
                     },
                     {
@@ -19378,7 +19904,7 @@
                             "teks_permintaan",
                             "Text",
                             "=",
-                            "pilih_level.pembeli.quest[orang.id].text"
+                            "pilih_level[pilih_level_global].pembeli.quest[orang.id].teks"
                           ]
                         },
                         {
@@ -19472,7 +19998,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "RandomInRange(1,3)"
+                            "RandomInRange(1,1.5)"
                           ]
                         },
                         {
@@ -19539,7 +20065,7 @@
                                 "barang_barang",
                                 "Animation",
                                 "=",
-                                "data_barang[pilih_level.pembeli.quest[orang.id][id_posisi].id_barang].name"
+                                "data_barang[pilih_level[pilih_level_global].pembeli.quest[orang.id][id_posisi].id_barang].name"
                               ]
                             },
                             {
@@ -19550,7 +20076,7 @@
                                 "barang_barang",
                                 "Scale",
                                 "=",
-                                "data_barang[pilih_level.pembeli.quest[orang.id][id_posisi].id_barang].scale"
+                                "pilih_level.data_barang[pilih_level[pilih_level_global].pembeli.quest[orang.id][id_posisi].id_barang].scale"
                               ]
                             },
                             {
@@ -20203,7 +20729,7 @@
                               "parameters": [
                                 "jumlah_skor",
                                 "+",
-                                "pilih_level.pembeli.quest[orang.id][barang_barang.id_barang].skor"
+                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].skor"
                               ]
                             }
                           ]
@@ -20271,7 +20797,7 @@
                                 "value": "SetBooleanVariable"
                               },
                               "parameters": [
-                                "pilih_level.pembeli.quest[orang.id][barang_barang.id_barang].sudah",
+                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
                                 "True",
                                 ""
                               ]
@@ -20320,7 +20846,7 @@
                                 "value": "SetBooleanVariable"
                               },
                               "parameters": [
-                                "pilih_level.pembeli.quest[orang.id][barang_barang.id_barang].sudah",
+                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
                                 "True",
                                 ""
                               ]
@@ -20337,7 +20863,7 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
-                            "pilih_level.pembeli.quest[orang.id][0].sudah",
+                            "pilih_level[pilih_level_global].pembeli.quest[orang.id][0].sudah",
                             "True",
                             ""
                           ]
@@ -20347,7 +20873,7 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
-                            "pilih_level.pembeli.quest[orang.id][1].sudah",
+                            "pilih_level[pilih_level_global].pembeli.quest[orang.id][1].sudah",
                             "True",
                             ""
                           ]
@@ -20653,7 +21179,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20661,69 +21186,80 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "pilih_level.pembeli.max_pembeli",
+                "pilih_level[1].pembeli.max_pembeli",
                 "=",
                 "5"
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "loadingke",
-                "=",
-                "\"Level 2\""
-              ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "StringObjectVariable"
               },
               "parameters": [
-                "",
-                "\"Loading\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "pilih_level.pembeli.max_pembeli",
+                "orang",
+                "state",
                 "=",
-                "8"
+                "\"pergi\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "loadingke",
-                "=",
-                "\"Level 3\""
+                "",
+                "\"winner\""
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "",
-                "\"Loading\"",
-                ""
+                "ok_winner",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "loadingke",
+                    "=",
+                    "\"Level 2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -21071,6 +21607,59 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "pengaturan",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "winner",
           "renderingType": "",
           "visibility": false,
           "cameras": [],

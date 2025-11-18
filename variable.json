@@ -1,5 +1,5 @@
-{ 
-"pilih_level": {
+
+{
     "1": {
     "pembeli" : {
         "id": 1,
@@ -278,7 +278,6 @@
             },
             "satu_layar": 3
         }
-    }
     }
 },
 "z_order": 0,

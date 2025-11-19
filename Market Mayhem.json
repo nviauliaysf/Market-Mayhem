@@ -12626,6 +12626,7 @@
           "type": "structure",
           "children": [
             {
+              "folded": true,
               "name": "pembeli",
               "type": "structure",
               "children": [
@@ -18331,16 +18332,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "barang",
-                    "Draggable",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -18358,6 +18349,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19559,7 +19551,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "pilih_level.pembeli.id",
+                    "pilih_level[pilih_level_global].pembeli.id",
                     "+",
                     "1"
                   ]
@@ -19917,6 +19909,16 @@
                         },
                         {
                           "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "barang",
+                            "Draggable",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                           },
                           "parameters": [
@@ -20065,7 +20067,7 @@
                                 "barang_barang",
                                 "Animation",
                                 "=",
-                                "data_barang[pilih_level[pilih_level_global].pembeli.quest[orang.id][id_posisi].id_barang].name"
+                                "pilih_level.data_barang[pilih_level[pilih_level_global].pembeli.quest[orang.id][id_posisi].id_barang].name"
                               ]
                             },
                             {
@@ -20704,49 +20706,10 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Kalau ingin menggunakan skor dari barang yang sudah benar"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "timer",
-                                "id",
-                                "=",
-                                "orang.id"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "jumlah_skor",
-                                "+",
-                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].skor"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
                           "comment": "Bug Fixing pelanggang dengan barang yang sama (beras & beras)"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -20769,37 +20732,98 @@
                               ]
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "barang_barang",
-                                "Effect",
-                                "\"belum\"",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "OpacityCapability::OpacityBehavior::SetValue"
-                              },
-                              "parameters": [
-                                "barang_barang",
-                                "Opacity",
-                                "=",
-                                "255"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
-                                "True",
-                                ""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "barang",
+                                    "id_barang",
+                                    "=",
+                                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "barang_barang",
+                                    "Effect",
+                                    "\"belum\"",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "barang_barang",
+                                    "Opacity",
+                                    "=",
+                                    "255"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Kalau ingin menggunakan skor dari barang yang sudah benar"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "timer",
+                                        "id",
+                                        "=",
+                                        "orang.id"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "jumlah_skor",
+                                        "+",
+                                        "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].skor"
+                                      ]
+                                    }
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -20818,37 +20842,98 @@
                               ]
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "barang_barang",
-                                "Effect",
-                                "\"belum\"",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "OpacityCapability::OpacityBehavior::SetValue"
-                              },
-                              "parameters": [
-                                "barang_barang",
-                                "Opacity",
-                                "=",
-                                "255"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
-                                "True",
-                                ""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "barang",
+                                    "id_barang",
+                                    "=",
+                                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "barang_barang",
+                                    "Effect",
+                                    "\"belum\"",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "barang_barang",
+                                    "Opacity",
+                                    "=",
+                                    "255"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].sudah",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Kalau ingin menggunakan skor dari barang yang sudah benar"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "timer",
+                                        "id",
+                                        "=",
+                                        "orang.id"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "jumlah_skor",
+                                        "+",
+                                        "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].skor"
+                                      ]
+                                    }
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -21114,16 +21199,6 @@
                                 "=",
                                 "\"pergi\""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "jumlah_skor",
-                                "+",
-                                "10+(timer.Value()*0.5)"
-                              ]
                             }
                           ]
                         }
@@ -21183,23 +21258,22 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "pilih_level[1].pembeli.max_pembeli",
-                "=",
-                "5"
+                "pilih_level[1].pembeli.quest[5][1].sudah",
+                "True",
+                ""
               ]
             },
             {
               "type": {
-                "value": "StringObjectVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "orang",
-                "state",
-                "=",
-                "\"pergi\""
+                "pilih_level[1].pembeli.quest[5][0].sudah",
+                "True",
+                ""
               ]
             }
           ],
@@ -21221,6 +21295,16 @@
                 "ok_winner",
                 "ButtonFSM",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "barang",
+                "Draggable",
+                ""
               ]
             }
           ],

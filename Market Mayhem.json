@@ -1391,6 +1391,30 @@
         "name": "Total Skor _ (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Level 3 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level 3 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7071,7 +7095,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "persistentUuid": "485fdc92-2ea1-4430-b7b2-b6155a32c9aa",
           "width": 0,
           "x": 1158,
@@ -7784,7 +7808,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8136,7 +8160,7 @@
             "objectName": "level"
           },
           {
-            "objectName": "pengaturan"
+            "objectName": "button_settings"
           },
           {
             "objectName": "kotak_settings"
@@ -8163,6 +8187,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"audio\"",
+                "",
+                "temp"
+              ]
+            },
             {
               "type": {
                 "value": "JSONToVariableStructure2"
@@ -8295,7 +8330,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "pengaturan",
+                    "button_settings",
                     "ButtonFSM",
                     ""
                   ]
@@ -9032,7 +9067,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "pengaturan",
+                "button_settings",
                 "ButtonFSM",
                 ""
               ]
@@ -9248,7 +9283,22 @@
         "windowMask": false,
         "selectedLayer": ""
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "teks",
+          "objects": [
+            {
+              "name": "sekarang"
+            },
+            {
+              "name": "jangan"
+            },
+            {
+              "name": "dalam"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "finish",
@@ -9392,12 +9442,92 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "persistentUuid": "b6d1bc67-9e99-496a-b463-ef6a8279fe44",
           "width": 0,
           "x": 1158,
           "y": 8,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pengaturan",
+          "name": "kotak_pengaturan",
+          "persistentUuid": "6bba9051-ab30-4452-85d3-15067c1f8d5f",
+          "width": 0,
+          "x": 261,
+          "y": 71,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 84,
+          "layer": "pengaturan",
+          "name": "BGM",
+          "persistentUuid": "7dc49063-f6d9-4452-8cb5-7663130acce6",
+          "width": 394,
+          "x": 512,
+          "y": 263,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 98.5,
+          "height": 84,
+          "layer": "pengaturan",
+          "name": "SFX",
+          "persistentUuid": "d5d4eb9e-7efa-40dc-a9cc-21601ea195ac",
+          "width": 394,
+          "x": 512,
+          "y": 381,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pengaturan",
+          "name": "ok_settings",
+          "persistentUuid": "951868f8-ac2a-4e89-b695-5beab7c82518",
+          "width": 0,
+          "x": 523,
+          "y": 514,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "click",
+          "persistentUuid": "a970da18-ab2d-4c9d-bced-fea15f982e08",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10025,7 +10155,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10111,6 +10241,242 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "kotak_pengaturan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 15,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 22 (6).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 548
+                          },
+                          {
+                            "x": 1,
+                            "y": 548
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ok_settings",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.08,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 1,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 15,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tak berjudul527_20251021041118 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 125
+                          },
+                          {
+                            "x": 6,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "click",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10141,7 +10507,16 @@
             "objectName": "level"
           },
           {
-            "objectName": "pengaturan"
+            "objectName": "button_settings"
+          },
+          {
+            "objectName": "click"
+          },
+          {
+            "objectName": "kotak_pengaturan"
+          },
+          {
+            "objectName": "ok_settings"
           }
         ]
       },
@@ -10159,6 +10534,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"audio\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "settings"
+              ]
+            },
             {
               "type": {
                 "value": "Cache"
@@ -10228,19 +10623,288 @@
                 "AutoTyping",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_settings",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"blur\"",
+                "no"
+              ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Pengaturan",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "button_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pengaturan\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "click",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"blur\"",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "settings.BGM",
+                    "=",
+                    "BGM.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "BGM.Value()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "settings.SFX",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"settings\"",
+                    "\"audio\"",
+                    "ToJSON(settings)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pengaturan\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "click",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"blur\"",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             }
           ],
@@ -10317,11 +10981,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -10384,11 +11049,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -10458,11 +11124,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -10525,11 +11192,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -10599,11 +11267,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -10707,7 +11376,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "pilih_level",
+                "pilih_level_global",
                 "=",
                 "2"
               ]
@@ -10719,33 +11388,6 @@
               "parameters": [
                 "",
                 "\"core\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "pengaturan",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Pengaturan\"",
                 ""
               ]
             }
@@ -10779,6 +11421,72 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "blur",
+              "doubleParameters": {
+                "blur": 12,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "pengaturan",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -10893,7 +11601,25 @@
         "windowMask": false,
         "selectedLayer": ""
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "teks",
+          "objects": [
+            {
+              "name": "ini"
+            },
+            {
+              "name": "ada"
+            },
+            {
+              "name": "tunjukan"
+            },
+            {
+              "name": "dalam"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "finish",
@@ -10959,7 +11685,7 @@
           "name": "putih",
           "persistentUuid": "eed1912a-32af-4224-8134-a3a5da99c0ed",
           "width": 0,
-          "x": 0,
+          "x": -1,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -10972,11 +11698,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "sekarang",
+          "name": "ini",
           "persistentUuid": "8f855b93-7f5b-4afd-b461-f0a9345b0cde",
           "width": 0,
-          "x": 193,
-          "y": 335,
+          "x": 313,
+          "y": 312,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10989,11 +11715,11 @@
           "height": 152,
           "keepRatio": true,
           "layer": "",
-          "name": "jangan",
+          "name": "ada",
           "persistentUuid": "7ea43dd3-f73a-4519-899c-10ae8d2a7105",
-          "width": 1029,
-          "x": 302,
-          "y": 301,
+          "width": 911,
+          "x": 197,
+          "y": 308,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11005,11 +11731,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "dalam",
+          "name": "tunjukan",
           "persistentUuid": "94f24c79-57ae-4b1d-862d-b2f8819f0f73",
           "width": 0,
-          "x": 429,
-          "y": 335,
+          "x": 283,
+          "y": 309,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -11037,12 +11763,108 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "persistentUuid": "b6d1bc67-9e99-496a-b463-ef6a8279fe44",
           "width": 0,
           "x": 1158,
           "y": 8,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "dalam",
+          "persistentUuid": "b2c53fe2-9b31-4b49-ac3a-25cae68b2f08",
+          "width": 0,
+          "x": 459,
+          "y": 309,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pengaturan",
+          "name": "kotak_settings",
+          "persistentUuid": "1e1ca5f8-b477-4335-9f68-10ce041f96c4",
+          "width": 0,
+          "x": 261,
+          "y": 71,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 98.5,
+          "height": 84,
+          "layer": "pengaturan",
+          "name": "BGM",
+          "persistentUuid": "b94b3cfa-1191-4409-98bd-68da6a9d975b",
+          "width": 394,
+          "x": 512,
+          "y": 263,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 98.5,
+          "height": 84,
+          "layer": "pengaturan",
+          "name": "SFX",
+          "persistentUuid": "032cd120-e9e5-49b3-9db8-ee280456e801",
+          "width": 394,
+          "x": 512,
+          "y": 381,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pengaturan",
+          "name": "ok_settings",
+          "persistentUuid": "7d837330-152d-4fe8-ade8-e730a09348c9",
+          "width": 0,
+          "x": 523,
+          "y": 514,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "click",
+          "persistentUuid": "60b818a8-8504-4bd4-b3a9-86a8ee9e49ea",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11206,7 +12028,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Level 2 (1).png",
+                      "image": "Level 3 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11310,7 +12132,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "sekarang",
+          "name": "ini",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -11338,7 +12160,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Sekarang ada 8 pembeli yang datang!",
+          "string": "Ini dia hari tersibuk di toko!",
           "font": "FredokaOne-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 48,
@@ -11361,7 +12183,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Sekarang ada 8 pembeli yang datang!",
+            "text": "Ini dia hari tersibuk di toko!",
             "font": "FredokaOne-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11374,7 +12196,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "jangan",
+          "name": "ada",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -11397,7 +12219,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Jangan sampai salah pilih ya",
+          "string": "Ada 12 pembeli datang berturut-turut!",
           "font": "FredokaOne-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 48,
@@ -11420,7 +12242,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Jangan sampai salah pilih ya",
+            "text": "Ada 12 pembeli datang berturut-turut!",
             "font": "FredokaOne-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11433,7 +12255,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "dalam",
+          "name": "tunjukan",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -11456,7 +12278,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Dalam hitungan ",
+          "string": "Tunjukkan skill kasir terbaikmu!",
           "font": "FredokaOne-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 48,
@@ -11479,7 +12301,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Dalam hitungan ",
+            "text": "Tunjukkan skill kasir terbaikmu!",
             "font": "FredokaOne-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11670,7 +12492,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "pengaturan",
+          "name": "button_settings",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11756,6 +12578,306 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "dalam",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "teks",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "akhir",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "AutoTyping",
+              "type": "AutoTyping::AutoTyping",
+              "Text": "Text",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "FullText": "",
+              "TypedText": ""
+            }
+          ],
+          "string": "Dalam hitungan ",
+          "font": "FredokaOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 48,
+          "color": {
+            "b": 28,
+            "g": 80,
+            "r": 208
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 7,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Dalam hitungan ",
+            "font": "FredokaOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "208;80;28"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "kotak_settings",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 15,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 22 (6).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 3
+                          },
+                          {
+                            "x": 763,
+                            "y": 548
+                          },
+                          {
+                            "x": 1,
+                            "y": 548
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ok_settings",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.08,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 1,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 15,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tak berjudul527_20251021041118 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 125
+                          },
+                          {
+                            "x": 6,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "click",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11768,10 +12890,13 @@
             "objectName": "putih"
           },
           {
-            "objectName": "sekarang"
+            "objectName": "ini"
           },
           {
-            "objectName": "jangan"
+            "objectName": "ada"
+          },
+          {
+            "objectName": "tunjukan"
           },
           {
             "objectName": "dalam"
@@ -11786,7 +12911,16 @@
             "objectName": "level"
           },
           {
-            "objectName": "pengaturan"
+            "objectName": "kotak_settings"
+          },
+          {
+            "objectName": "button_settings"
+          },
+          {
+            "objectName": "ok_settings"
+          },
+          {
+            "objectName": "click"
           }
         ]
       },
@@ -11806,6 +12940,26 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"settings\"",
+                "\"audio\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "settings"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -11817,7 +12971,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "sekarang"
+                "ini"
               ]
             },
             {
@@ -11833,7 +12987,15 @@
                 "value": "Cache"
               },
               "parameters": [
-                "jangan"
+                "ada"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "tunjukan"
               ]
             },
             {
@@ -11849,7 +13011,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "AutoTyping",
                 ""
               ]
@@ -11859,7 +13021,17 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "jangan",
+                "ada",
+                "AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "tunjukan",
                 "AutoTyping",
                 ""
               ]
@@ -11873,19 +13045,278 @@
                 "AutoTyping",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"blur\"",
+                "no"
+              ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Pengaturan",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "button_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pengaturan\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "click",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"blur\"",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "settings.BGM",
+                    "=",
+                    "BGM.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "BGM.Value()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "settings.SFX",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"settings\"",
+                    "\"audio\"",
+                    "ToJSON(settings)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pengaturan\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "click",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"blur\"",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "teks",
+                        "AutoTyping",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             }
           ],
@@ -11922,7 +13353,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 ""
               ]
             },
@@ -11931,7 +13362,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "AutoTyping",
                 "yes"
               ]
@@ -11949,7 +13380,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "teks",
                 "True",
                 ""
@@ -11962,11 +13393,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -11974,7 +13406,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "teks",
                 "True",
                 ""
@@ -11987,7 +13419,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "AutoTyping",
                 "no"
               ]
@@ -11997,10 +13429,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 "Text",
                 "=",
-                "\"Sekarang ada 8 pembeli yang datang!\""
+                "\"Ini dia hari tersibuk di toko!\""
               ]
             },
             {
@@ -12016,7 +13448,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 "teks",
                 "True",
                 ""
@@ -12029,11 +13461,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -12041,7 +13474,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 "teks",
                 "True",
                 ""
@@ -12054,7 +13487,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 ""
               ]
             },
@@ -12063,7 +13496,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "sekarang",
+                "ini",
                 ""
               ]
             },
@@ -12072,7 +13505,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 "AutoTyping",
                 "yes"
               ]
@@ -12090,7 +13523,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "dalam",
+                "tunjukan",
                 "teks",
                 "True",
                 ""
@@ -12103,11 +13536,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -12115,7 +13549,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "dalam",
+                "tunjukan",
                 "teks",
                 "True",
                 ""
@@ -12128,7 +13562,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 "AutoTyping",
                 "no"
               ]
@@ -12138,10 +13572,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 "Text",
                 "=",
-                "\"Jangan sampai salah pilih ya\""
+                "\"Ada 12 pembeli datang berturut-turut!\""
               ]
             },
             {
@@ -12170,11 +13604,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -12195,7 +13630,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "dalam",
+                "tunjukan",
                 ""
               ]
             },
@@ -12204,7 +13639,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "jangan",
+                "ada",
                 ""
               ]
             },
@@ -12213,7 +13648,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "dalam",
+                "tunjukan",
                 "AutoTyping",
                 "yes"
               ]
@@ -12244,11 +13679,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "click",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -12269,7 +13705,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "hitung",
+                "tunjukan",
                 "AutoTyping",
                 "no"
               ]
@@ -12279,7 +13715,150 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "jangan",
+                "tunjukan",
+                "Text",
+                "=",
+                "\"Tunjukkan skill kasir terbaikmu!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "dalam",
+                "teks",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "click",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "dalam",
+                "teks",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dalam",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "tunjukan",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "dalam",
+                "AutoTyping",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "dalam",
+                "akhir",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "click",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "dalam",
+                "akhir",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "dalam",
+                "AutoTyping",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dalam",
                 "Text",
                 "=",
                 "\"Dalam hitungan\""
@@ -12352,9 +13931,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "pilih_level",
+                "pilih_level_global",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
@@ -12377,7 +13956,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "pengaturan",
+                "button_settings",
                 "ButtonFSM",
                 ""
               ]
@@ -12424,6 +14003,72 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "blur",
+              "doubleParameters": {
+                "blur": 12,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "pengaturan",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -12534,9 +14179,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882454,
+        "zoomFactor": 0.2467258695740641,
         "windowMask": false,
-        "selectedLayer": "winner"
+        "selectedLayer": "ui"
       },
       "objectsGroups": [
         {
@@ -12626,7 +14271,6 @@
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "pembeli",
               "type": "structure",
               "children": [
@@ -12638,7 +14282,7 @@
                 {
                   "name": "max_pembeli",
                   "type": "number",
-                  "value": 4
+                  "value": 5
                 },
                 {
                   "name": "quest",
@@ -12873,6 +14517,11 @@
               ]
             }
           ]
+        },
+        {
+          "name": "kapasitas",
+          "type": "number",
+          "value": 0
         },
         {
           "name": "counter",
@@ -13239,7 +14888,7 @@
           "name": "teks_skor",
           "persistentUuid": "f069790f-ba57-439a-b307-26db4587b06f",
           "width": 0,
-          "x": 70,
+          "x": 54,
           "y": 36,
           "zOrder": 19,
           "numberProperties": [],
@@ -18077,6 +19726,14 @@
                 "value": "Cache"
               },
               "parameters": [
+                "kotak_kena"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
                 "create_orang"
               ]
             },
@@ -18096,16 +19753,6 @@
                 "ok_winner",
                 "ButtonFSM",
                 "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "1"
               ]
             }
           ],
@@ -19373,6 +21020,16 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "pilih_level[pilih_level_global].pembeli.max_pembeli",
+                "!=",
+                "pilih_level[pilih_level_global].pembeli.id"
+              ]
+            },
+            {
+              "type": {
                 "value": "AjoutObjConcern"
               },
               "parameters": [
@@ -19388,7 +21045,7 @@
                 "",
                 "orang",
                 "<",
-                "pilih_level.pembeli.satu_layar"
+                "pilih_level[pilih_level_global].pembeli.satu_layar"
               ]
             }
           ],
@@ -19435,6 +21092,17 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "point",
+                    "is_filled",
+                    "True",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -19740,17 +21408,6 @@
                         "point.X()-(orang.Width()/2)",
                         "\"linear\"",
                         "3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "point",
-                        "is_filled",
-                        "True",
                         ""
                       ]
                     },
@@ -21093,6 +22750,18 @@
                                 "",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "point",
+                                "orang",
+                                "",
+                                "",
+                                ""
+                              ]
                             }
                           ],
                           "actions": [
@@ -21126,6 +22795,17 @@
                                 "Text",
                                 "=",
                                 "\"Terima Kasih ya\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "point",
+                                "is_filled",
+                                "False",
+                                ""
                               ]
                             }
                           ]
@@ -21332,6 +23012,196 @@
                     "loadingke",
                     "=",
                     "\"Level 2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pilih_level[2].pembeli.quest[8][1].sudah",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pilih_level[2].pembeli.quest[8][0].sudah",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"winner\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_winner",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "barang",
+                "Draggable",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "loadingke",
+                    "=",
+                    "\"Level 3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pilih_level[3].pembeli.quest[10][1].sudah",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pilih_level[3].pembeli.quest[10][0].sudah",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"winner\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_winner",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "barang",
+                "Draggable",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "loadingke",
+                    "=",
+                    "\"Home Page\""
                   ]
                 },
                 {

@@ -1415,6 +1415,296 @@
         "name": "NewSprite10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "main menu bgm - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main menu bgm - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button setting & credit - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button setting & credit - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button start __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button start __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button ok di setting & credit __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button ok di setting & credit __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "geser volume & sfx - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "geser volume & sfx - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "main gameplay bgm - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main gameplay bgm - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Selamat datang di market mayhem - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Selamat datang di market mayhem - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Di sini, kamu jadi kasir sekaligus pahlawan toko! - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Di sini, kamu jadi kasir sekaligus pahlawan toko! - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layanin pembeli yang datang dengan cepat dan tepat - sebelum mereka marah atau kabur! - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Layanin pembeli yang datang dengan cepat dan tepat - sebelum mereka marah atau kabur! - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "tulisan level 1 & 2 & 3 muncul __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tulisan level 1 & 2 & 3 muncul __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kamu akan melayani 5 pembeli hari ini - market mayhem (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kamu akan melayani 5 pembeli hari ini - market mayhem (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Perhatikan apa yang mereka minta, lalu kasih barangnya dengan cepat dan tepat - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Perhatikan apa yang mereka minta, lalu kasih barangnya dengan cepat dan tepat - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "countdown 1 - 2 - 3 - mulai! __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "countdown 1 - 2 - 3 - mulai! __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sekarang ada 8 pembeli yang datang - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sekarang ada 8 pembeli yang datang - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Jangan sampai salah pilih ya - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jangan sampai salah pilih ya - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ada 12 pembeli datang berturut turut - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ada 12 pembeli datang berturut turut - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ini dia hari tersibuk di toko - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ini dia hari tersibuk di toko - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tunjukkan skill kasir terbaikmu - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tunjukkan skill kasir terbaikmu - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "main gameplay bgm - market mayhem2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main gameplay bgm - market mayhem2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "drop barang - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "drop barang - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "footstep orang jalan ke toko - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "footstep orang jalan ke toko - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stopwatch pengunjung (bar kecil diatas yg berkurang) - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stopwatch pengunjung (bar kecil diatas yg berkurang) - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "barang yang diambil benar __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "barang yang diambil benar __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pickup barang - market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pickup barang - market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "barang yang diambil benar __ market mayhem2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "barang yang diambil benar __ market mayhem2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "barang yang diambil salah __ market mayhem.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "barang yang diambil salah __ market mayhem.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button ok di tampilan hasil skor __ market mayhem (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button ok di tampilan hasil skor __ market mayhem (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button setting in game __ market mayhem (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button setting in game __ market mayhem (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level selesai - market mayhem (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level selesai - market mayhem (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2503,6 +2793,19 @@
             },
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main menu bgm - market mayhem.wav",
+                "2",
+                "yes",
+                "settings.BGM",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Flash::Flash::Flash"
               },
               "parameters": [
@@ -2510,6 +2813,38 @@
                 "Flash",
                 "9999999999999999999",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "main menu bgm - market mayhem.wav",
+                    "2",
+                    "settings.BGM",
+                    "settings.BGM",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -2529,6 +2864,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button start __ market mayhem.wav",
+                "1",
+                "",
+                "settings.SFX",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "SetStringVariable"
@@ -2568,6 +2916,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button setting & credit - market mayhem.wav",
+                "1",
+                "",
+                "settings.SFX",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -2593,6 +2954,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button setting & credit - market mayhem.wav",
+                "1",
+                "",
+                "settings.SFX",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -2726,7 +3100,7 @@
       "name": "Pengaturan",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -3149,7 +3523,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3168,6 +3541,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "geser volume & sfx - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -3205,6 +3591,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "geser volume & sfx - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -3255,15 +3654,43 @@
                 "\"audio\"",
                 "ToJSON(settings)"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Home Page\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button ok di setting & credit __ market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Home Page\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -3385,7 +3812,7 @@
       "name": "Kredit",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -3745,6 +4172,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button ok di setting & credit __ market mayhem.wav",
+                "1",
+                "",
+                "settings.SFX",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -3872,7 +4312,7 @@
       "name": "Loading",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -5344,7 +5784,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.08,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -5403,7 +5843,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.07,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -5859,6 +6299,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - market mayhem.wav",
+                "2",
+                "",
+                "settings.BGM",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
@@ -5901,6 +6354,26 @@
             },
             {
               "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "SFX",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "BGM",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -5931,6 +6404,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Selamat datang di market mayhem - market mayhem.wav",
+                "1",
+                "settings.SFX",
+                "settings.SFX",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "EnableLayerEffect"
               },
               "parameters": [
@@ -5940,6 +6426,38 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "main gameplay bgm - market mayhem.wav",
+                    "2",
+                    "",
+                    "settings.BGM",
+                    "1"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -5947,7 +6465,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5995,6 +6512,35 @@
                     "",
                     "\"blur\"",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "yes",
+                    ""
                   ]
                 }
               ],
@@ -6098,6 +6644,17 @@
                     "=",
                     "SFX.Value()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "SFX.Value()"
+                  ]
                 }
               ]
             },
@@ -6155,6 +6712,35 @@
                     "\"blur\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -6202,22 +6788,10 @@
                 "ButtonFSM",
                 ""
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "selamat",
-                "AutoTyping",
-                ""
-              ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "selamat",
@@ -6225,51 +6799,6 @@
                 "=",
                 "\"Selamat datang di MARKET MAYHEM!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "selamat",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "selamat",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -6302,24 +6831,52 @@
                 "=",
                 "255"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "disini",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Di sini, kamu jadi kasir sekaligus pahlawan toko! - market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "layanin",
+                    "teks",
+                    "True",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6339,30 +6896,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "disini",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "disini",
-                "AutoTyping",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "disini",
@@ -6370,51 +6904,6 @@
                 "=",
                 "\"Di sini, kamu jadi kasir sekaligus pahlawan toko!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "layanin",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "layanin",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -6447,24 +6936,52 @@
                 "=",
                 "255"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Layanin pembeli yang datang dengan cepat dan tepat - sebelum mereka marah atau kabur! - market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "siap",
+                    "teks",
+                    "True",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6484,81 +7001,13 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "layanin",
-                "AutoTyping",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "layanin",
                 "Text",
                 "=",
                 "\"Layanin pembeli yang datang dengan cepat dan tepat, sebelum mereka marah atau kabur!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "finish",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "finish",
-                "True",
-                ""
               ]
             }
           ],
@@ -6592,24 +7041,52 @@
                 "=",
                 "255"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "akhir",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "siap",
+                    "akhir",
+                    "True",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6629,30 +7106,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "siap",
-                "akhir",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "siap",
-                "AutoTyping",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "siap",
@@ -6660,70 +7114,54 @@
                 "=",
                 "\"Siap mulai pelatihan cepatmu?\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "teerakhir",
-                "True",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "teerakhir",
-                "True",
-                ""
-              ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "loadingke",
-                "=",
-                "\"Level 1\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Loading\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "tulisan level 1 & 2 & 3 muncul __ market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "loadingke",
+                    "=",
+                    "\"Level 1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6919,7 +7357,7 @@
       "name": "Level 1",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -7470,7 +7908,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.07,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -7529,7 +7967,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.06,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -8231,6 +8669,26 @@
             },
             {
               "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "SFX",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "BGM",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "EnableLayerEffect"
               },
               "parameters": [
@@ -8317,7 +8775,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8365,6 +8822,26 @@
                     "",
                     "\"blur\"",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "yes",
+                    ""
                   ]
                 }
               ],
@@ -8468,6 +8945,17 @@
                     "=",
                     "SFX.Value()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "SFX.Value()"
+                  ]
                 }
               ]
             },
@@ -8525,6 +9013,26 @@
                     "\"blur\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -8571,6 +9079,18 @@
                 "click",
                 "ButtonFSM",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "kamu",
+                "Text",
+                "=",
+                "\"Kamu akan melayani 5 pembeli hari ini !\""
               ]
             }
           ],
@@ -8628,16 +9148,52 @@
               "parameters": [
                 "0.1"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "kamu",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kamu akan melayani 5 pembeli hari ini - market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "perhatikan",
+                    "teks",
+                    "True",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -8657,30 +9213,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "kamu",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "kamu",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "kamu",
@@ -8688,51 +9221,6 @@
                 "=",
                 "\"Kamu akan melayani 5 pembeli hari ini !\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "perhatikan",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "perhatikan",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -8763,24 +9251,41 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Perhatikan apa yang mereka minta, lalu kasih barangnya dengan cepat dan tepat - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                }
               ]
             }
           ]
@@ -8800,81 +9305,13 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "perhatikan",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "perhatikan",
                 "Text",
                 "=",
                 "\"Perhatikan apa yang mereka minta, lalu kasih barangnya dengan cepat dan tepat!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
               ]
             }
           ],
@@ -8906,91 +9343,41 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
-              ]
             }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "hitung",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "perhatikan",
-                "Text",
-                "=",
-                "\"Dalam hitungan\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "finish",
-                "True",
-                "True"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                }
               ]
             }
           ]
@@ -9000,13 +9387,13 @@
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
-                "finish",
-                "True",
-                "True",
-                ""
+                "dalam",
+                "Text",
+                "=",
+                "\"Dalam hitungan \""
               ]
             }
           ],
@@ -9028,33 +9415,61 @@
                 "hitung",
                 ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"core\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "countdown 1 - 2 - 3 - mulai! __ market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pilih_level_global",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"core\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -9817,7 +10232,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.058,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -10644,6 +11059,48 @@
                 "\"blur\"",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "BGM",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "SFX",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "BGM",
+                "=",
+                "settings.BGM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SFX",
+                "=",
+                "settings.SFX",
+                ""
+              ]
             }
           ]
         },
@@ -10698,6 +11155,36 @@
                     "",
                     "",
                     "\"blur\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
                     "yes"
                   ]
                 }
@@ -10802,6 +11289,17 @@
                     "=",
                     "SFX.Value()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "SFX.Value()"
+                  ]
                 }
               ]
             },
@@ -10859,6 +11357,26 @@
                     "\"blur\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -10905,6 +11423,18 @@
                 "click",
                 "ButtonFSM",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "sekarang",
+                "Text",
+                "=",
+                "\"Sekarang ada 8 pembeli yang datang!\""
               ]
             }
           ],
@@ -10954,24 +11484,33 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "sekarang",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sekarang ada 8 pembeli yang datang - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -10991,30 +11530,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "sekarang",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "sekarang",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "sekarang",
@@ -11022,51 +11538,6 @@
                 "=",
                 "\"Sekarang ada 8 pembeli yang datang!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "jangan",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "jangan",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -11097,24 +11568,33 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jangan sampai salah pilih ya - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -11134,81 +11614,13 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "jangan",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "jangan",
                 "Text",
                 "=",
                 "\"Jangan sampai salah pilih ya\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
               ]
             }
           ],
@@ -11240,24 +11652,41 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                }
               ]
             }
           ]
@@ -11267,80 +11696,13 @@
           "conditions": [
             {
               "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "hitung",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "jangan",
+                "dalam",
                 "Text",
                 "=",
                 "\"Dalam hitungan\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "finish",
-                "True",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "finish",
-                "True",
-                "True",
-                ""
               ]
             }
           ],
@@ -11362,33 +11724,61 @@
                 "hitung",
                 ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"core\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "countdown 1 - 2 - 3 - mulai! __ market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pilih_level_global",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"core\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -12154,7 +12544,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.065,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -12213,7 +12603,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.06,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -12272,7 +12662,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.055,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -13056,6 +13446,48 @@
                 "\"blur\"",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "BGM",
+                "=",
+                "settings.BGM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SFX",
+                "=",
+                "settings.SFX",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "BGM",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "SFX",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -13111,6 +13543,26 @@
                     "",
                     "\"blur\"",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
+                    ""
                   ]
                 }
               ],
@@ -13214,6 +13666,17 @@
                     "=",
                     "SFX.Value()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "SFX.Value()"
+                  ]
                 }
               ]
             },
@@ -13271,6 +13734,26 @@
                     "\"blur\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -13317,6 +13800,18 @@
                 "click",
                 "ButtonFSM",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "ini",
+                "Text",
+                "=",
+                "\"Ini dia hari tersibuk di toko!\""
               ]
             }
           ],
@@ -13366,24 +13861,33 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "ini",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ini dia hari tersibuk di toko - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -13403,30 +13907,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "ini",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ini",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "ini",
@@ -13434,51 +13915,6 @@
                 "=",
                 "\"Ini dia hari tersibuk di toko!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "ada",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "ada",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -13509,24 +13945,33 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "tunjukan",
-                "teks",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ada 12 pembeli datang berturut turut - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -13546,30 +13991,7 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "tunjukan",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ada",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "ada",
@@ -13577,51 +13999,6 @@
                 "=",
                 "\"Ada 12 pembeli datang berturut-turut!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "teks",
-                "True",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -13652,24 +14029,33 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Tunjukkan skill kasir terbaikmu - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -13689,81 +14075,13 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "hitung",
-                "finish",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "tunjukan",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "tunjukan",
                 "Text",
                 "=",
                 "\"Tunjukkan skill kasir terbaikmu!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "teks",
-                "True",
-                ""
               ]
             }
           ],
@@ -13815,6 +14133,42 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -13822,80 +14176,13 @@
           "conditions": [
             {
               "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "akhir",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "dalam",
-                "AutoTyping",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
               },
               "parameters": [
                 "dalam",
                 "Text",
                 "=",
                 "\"Dalam hitungan\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "finish",
-                "True",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "finish",
-                "True",
-                "True",
-                ""
               ]
             }
           ],
@@ -13917,60 +14204,61 @@
                 "hitung",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"core\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "button_settings",
-                "ButtonFSM",
-                ""
-              ]
             }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Pengaturan\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "countdown 1 - 2 - 3 - mulai! __ market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pilih_level_global",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"core\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -19609,6 +19897,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - market mayhem2.wav",
+                "2",
+                "yes",
+                "settings.BGM",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "JSONResourceLoader::LoadJSONToScene"
               },
               "parameters": [
@@ -19668,6 +19969,26 @@
                 "SFX",
                 "=",
                 "settings.SFX",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "SFX",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "BGM",
+                "",
                 ""
               ]
             },
@@ -19753,6 +20074,16 @@
                 "ok_winner",
                 "ButtonFSM",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pilih_level_global",
+                "=",
+                "2"
               ]
             }
           ],
@@ -20018,6 +20349,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button setting in game __ market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -20061,6 +20405,26 @@
                   "parameters": [
                     "orang",
                     "Tween",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "yes",
                     ""
                   ]
                 }
@@ -20134,6 +20498,17 @@
                   "parameters": [
                     "",
                     "1",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
                     "=",
                     "SFX.Value()"
                   ]
@@ -20211,6 +20586,39 @@
                     "orang",
                     "Tween",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button ok di setting & credit __ market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
                   ]
                 }
               ]
@@ -22039,6 +22447,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -22366,7 +22775,6 @@
                           "comment": "Bug Fixing pelanggang dengan barang yang sama (beras & beras)"
                         },
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -22598,6 +23006,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -22934,71 +23343,36 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[1].pembeli.quest[5][1].sudah",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[1].pembeli.quest[5][0].sudah",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"winner\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ok_winner",
-                "ButtonFSM",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "barang",
-                "Draggable",
-                ""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Winner",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "ok_winner",
-                    "ButtonFSM",
+                    "pilih_level[1].pembeli.quest[5][1].sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pilih_level[1].pembeli.quest[5][0].sudah",
+                    "True",
                     ""
                   ]
                 }
@@ -23006,84 +23380,555 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "loadingke",
-                    "=",
-                    "\"Level 2\""
+                    "",
+                    "level selesai - market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "ShowLayer"
                   },
                   "parameters": [
                     "",
-                    "\"Loading\"",
+                    "\"winner\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "barang",
+                    "Draggable",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "ok_winner",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "loadingke",
+                        "=",
+                        "\"Level 2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pilih_level[2].pembeli.quest[8][1].sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pilih_level[2].pembeli.quest[8][0].sudah",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "level selesai - market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"winner\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "barang",
+                    "Draggable",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "ok_winner",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "loadingke",
+                        "=",
+                        "\"Level 3\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pilih_level[3].pembeli.quest[10][1].sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pilih_level[3].pembeli.quest[10][0].sudah",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "level selesai - market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"winner\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_winner",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "barang",
+                    "Draggable",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "ok_winner",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "loadingke",
+                        "=",
+                        "\"Home Page\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[2].pembeli.quest[8][1].sudah",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[2].pembeli.quest[8][0].sudah",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"winner\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ok_winner",
-                "ButtonFSM",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "barang",
-                "Draggable",
-                ""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sound",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "barang",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pickup barang - market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "barang",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "drop barang - market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Tween::IsPlaying"
+                      },
+                      "parameters": [
+                        "orang",
+                        "Tween",
+                        "\"orang-masuk-\"+orang.id"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::IsPlaying"
+                      },
+                      "parameters": [
+                        "orang",
+                        "Tween",
+                        "\"orang-pergi-\"+orang.id"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "footstep orang jalan ke toko - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "timer",
+                    "id",
+                    "=",
+                    "orang.id"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "stopwatch pengunjung (bar kecil diatas yg berkurang) - market mayhem.wav",
+                    "3",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "orang",
+                    "Tween",
+                    "\"orang-pergi-\"+orang.id"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "barang",
+                    "id_barang",
+                    "=",
+                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "barang yang diambil benar __ market mayhem2.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "barang",
+                    "id_barang",
+                    "=",
+                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "barang yang diambil salah __ market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -23101,122 +23946,21 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "loadingke",
-                    "=",
-                    "\"Level 3\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
-                    "\"Loading\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[3].pembeli.quest[10][1].sudah",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pilih_level[3].pembeli.quest[10][0].sudah",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"winner\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ok_winner",
-                "ButtonFSM",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "barang",
-                "Draggable",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "ok_winner",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "loadingke",
-                    "=",
-                    "\"Home Page\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
+                    "button ok di tampilan hasil skor __ market mayhem (1).wav",
+                    "1",
                     "",
-                    "\"Loading\"",
-                    ""
+                    "settings.SFX",
+                    "1"
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [

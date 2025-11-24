@@ -6516,15 +6516,6 @@
                 },
                 {
                   "type": {
-                    "value": "PauseSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
                   },
                   "parameters": [
@@ -6541,34 +6532,6 @@
                     "BGM",
                     "yes",
                     ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -6715,15 +6678,6 @@
                 },
                 {
                   "type": {
-                    "value": "RePlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
                   },
                   "parameters": [
@@ -6740,35 +6694,6 @@
                     "SFX",
                     "",
                     ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -6865,17 +6790,6 @@
                   "parameters": [
                     "0.1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "layanin",
-                    "teks",
-                    "True",
-                    ""
-                  ]
                 }
               ]
             }
@@ -6970,17 +6884,6 @@
                   "parameters": [
                     "0.1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "siap",
-                    "teks",
-                    "True",
-                    ""
-                  ]
                 }
               ]
             }
@@ -7074,17 +6977,6 @@
                   },
                   "parameters": [
                     "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "siap",
-                    "akhir",
-                    "True",
-                    ""
                   ]
                 }
               ]
@@ -8844,34 +8736,6 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -9032,35 +8896,6 @@
                     "BGM",
                     "",
                     ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -11188,34 +11023,6 @@
                     "yes"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -11376,35 +11183,6 @@
                     "SFX",
                     "",
                     ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -13565,34 +13343,6 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -13753,35 +13503,6 @@
                     "SFX",
                     "",
                     ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "teks",
-                        "AutoTyping",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -20083,7 +19804,7 @@
               "parameters": [
                 "pilih_level_global",
                 "=",
-                "2"
+                "1"
               ]
             }
           ],
@@ -23845,39 +23566,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Tween::IsPlaying"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "orang",
-                    "Tween",
-                    "\"orang-pergi-\"+orang.id"
+                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][1].sudah",
+                    "True",
+                    ""
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "StopSoundCanal"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "",
-                    "3"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "barang",
-                    "id_barang",
-                    "=",
-                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
+                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][0].sudah",
+                    "True",
+                    ""
                   ]
                 }
               ],
@@ -23895,6 +23599,30 @@
                     "1"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -23902,13 +23630,12 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "barang",
                     "id_barang",
-                    "=",
+                    "!=",
                     "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
                   ]
                 }

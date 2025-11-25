@@ -3543,19 +3543,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "geser volume & sfx - market mayhem.wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -3573,6 +3560,34 @@
                     "2",
                     "=",
                     "BGM.Value()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -3593,19 +3608,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "geser volume & sfx - market mayhem.wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -3623,6 +3625,45 @@
                     "1",
                     "=",
                     "SFX.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "SFX.Value()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -8688,6 +8729,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button setting in game __ market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -8773,6 +8827,34 @@
                     "BGM.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -8821,6 +8903,34 @@
                     "SFX.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -8838,6 +8948,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button ok di setting & credit __ market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "EcrireFichierTxt"
@@ -10965,6 +11088,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button setting in game __ market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -11060,6 +11196,34 @@
                     "BGM.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -11108,6 +11272,34 @@
                     "SFX.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -11125,6 +11317,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button ok di setting & credit __ market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "EcrireFichierTxt"
@@ -13295,6 +13500,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button setting in game __ market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -13380,6 +13598,34 @@
                     "BGM.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -13428,6 +13674,34 @@
                     "SFX.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -13445,6 +13719,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button ok di setting & credit __ market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "EcrireFichierTxt"
@@ -19796,16 +20083,6 @@
                 "ButtonFSM",
                 "no"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "1"
-              ]
             }
           ],
           "events": [
@@ -20048,7 +20325,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20186,6 +20462,34 @@
                     "BGM.Value()"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -20232,6 +20536,34 @@
                     "3",
                     "=",
                     "SFX.Value()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "geser volume & sfx - market mayhem.wav",
+                        "1",
+                        "",
+                        "settings.SFX",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -21972,6 +22304,19 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "stopwatch pengunjung (bar kecil diatas yg berkurang) - market mayhem.wav",
+                                "3",
+                                "settings.SFX",
+                                "settings.SFX",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "ResetObjectTimer"
                               },
                               "parameters": [
@@ -22331,7 +22676,21 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "drop barang - market mayhem.wav",
+                    "1",
+                    "settings.SFX",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23022,6 +23381,15 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -23452,41 +23820,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "barang",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "drop barang - market mayhem.wav",
-                    "1",
-                    "settings.SFX",
-                    "settings.SFX",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
@@ -23535,37 +23868,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "timer",
-                    "id",
-                    "=",
-                    "orang.id"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "stopwatch pengunjung (bar kecil diatas yg berkurang) - market mayhem.wav",
-                    "3",
-                    "settings.SFX",
-                    "settings.SFX",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
@@ -23583,6 +23885,12 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -23593,61 +23901,6 @@
                   "parameters": [
                     "",
                     "barang yang diambil benar __ market mayhem2.wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "StopSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "3"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "barang",
-                    "id_barang",
-                    "!=",
-                    "pilih_level[pilih_level_global].pembeli.quest[orang.id][barang_barang.id_barang].id_barang"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "barang yang diambil salah __ market mayhem.wav",
                     "1",
                     "",
                     "settings.SFX",

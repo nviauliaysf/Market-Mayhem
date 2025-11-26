@@ -20057,16 +20057,6 @@
                 "ButtonFSM",
                 "no"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pilih_level_global",
-                "=",
-                "1"
-              ]
             }
           ],
           "events": [

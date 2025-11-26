@@ -7841,7 +7841,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.07,
+              "Interval": 0.072,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -8700,6 +8700,98 @@
                 "AutoTyping",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_settings",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "level",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kuning",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "putih",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "kamu",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "kamu",
+                "AutoTyping",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kamu akan melayani 5 pembeli hari ini - market mayhem (1).wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8708,6 +8800,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8788,6 +8881,16 @@
                     "BGM",
                     "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -9020,141 +9123,21 @@
                     "",
                     ""
                   ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "kamu",
-                "Text",
-                "=",
-                "\"Kamu akan melayani 5 pembeli hari ini !\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "level",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "kuning",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "putih",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "kamu",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "kamu",
-                "AutoTyping",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Kamu akan melayani 5 pembeli hari ini - market mayhem (1).wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "perhatikan",
-                    "teks",
-                    "True",
+                    "ok_settings",
+                    "ButtonFSM",
                     ""
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10190,7 +10173,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.058,
+              "Interval": 0.063,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -11059,6 +11042,88 @@
                 "settings.SFX",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "level",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kuning",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "putih",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "sekarang",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "sekarang",
+                "AutoTyping",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sekarang ada 8 pembeli yang datang - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11067,6 +11132,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11389,114 +11455,21 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
                 }
               ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "sekarang",
-                "Text",
-                "=",
-                "\"Sekarang ada 8 pembeli yang datang!\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "level",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "kuning",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "putih",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "sekarang",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "sekarang",
-                "AutoTyping",
-                "yes"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Sekarang ada 8 pembeli yang datang - market mayhem.wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12527,7 +12500,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.065,
+              "Interval": 0.067,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -13471,6 +13444,98 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_settings",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "level",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kuning",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "putih",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ini",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ini",
+                "AutoTyping",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ini dia hari tersibuk di toko - market mayhem.wav",
+                    "1",
+                    "",
+                    "settings.SFX",
+                    "1"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13479,6 +13544,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13559,6 +13625,16 @@
                     "SFX",
                     "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -13791,114 +13867,21 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_settings",
+                    "ButtonFSM",
+                    ""
+                  ]
                 }
               ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "click",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "ini",
-                "Text",
-                "=",
-                "\"Ini dia hari tersibuk di toko!\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "level",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "kuning",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "putih",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "ini",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ini",
-                "AutoTyping",
-                "yes"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Ini dia hari tersibuk di toko - market mayhem.wav",
-                    "1",
-                    "",
-                    "settings.SFX",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14120,25 +14103,6 @@
                 "dalam",
                 "AutoTyping",
                 "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "dalam",
-                "akhir",
-                "True",
-                ""
               ]
             }
           ],
@@ -20083,6 +20047,26 @@
                 "ButtonFSM",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ok_setting",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pilih_level_global",
+                "=",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -20325,6 +20309,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pengaturan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20423,6 +20408,16 @@
                     "BGM",
                     "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_setting",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -20672,6 +20667,16 @@
                     "settings.SFX",
                     "settings.SFX",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "ok_setting",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -22510,7 +22515,17 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "folded": true,
@@ -23381,15 +23396,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "StopSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -23436,7 +23442,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Winner",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23776,6 +23781,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
